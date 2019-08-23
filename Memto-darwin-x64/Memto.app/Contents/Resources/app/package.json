@@ -1,0 +1,19 @@
+{
+  "name": "makerproject",
+  "version": "1.0.0",
+  "description": "Projet Hub",
+  "main": "index.js",
+  "scripts": {
+    "test": "electron .",
+    "build": "electron-packager . Memto"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^4.1.1",
+    "electron-packager": "^13.1.1"
+  },
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}
